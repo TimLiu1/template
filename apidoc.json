@@ -1,0 +1,19 @@
+{
+  "name": "BlockTrending API document",
+  "version": "0.1.0",
+  "description": "the api document for BlockTrending",
+  "title": "BlockTrending",
+  "url" : "http://d.blocktrending.com/api",
+  "sampleUrl": "http://d.blocktrending.com/api",
+  "header": {
+    "title": "Overview",
+    "filename": "README.md"
+  },
+  "footer": {
+    "title": "Copyright"
+  },
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
