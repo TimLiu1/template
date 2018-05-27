@@ -5,8 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "eslint": "eslint ./   --ignore-path ./eslintignore -c .eslintrc.json",
-    "doc": " apidoc -i app/routes/ -o apidoc/",
-    "test": "eslint ./   --ignore-path ./eslintignore -c .eslintrc.json"
+    "doc": " apidoc -i app/routes/ -o apidoc/"
   },
   "dependencies": {
     "@alicloud/sms-sdk": "^1.1.1",
