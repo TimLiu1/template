@@ -1,10 +1,10 @@
 {
-  "name": "BlockTrending API document",
+  "name": "PEA",
   "version": "0.1.0",
-  "description": "the api document for BlockTrending",
+  "description": "the api document for PEA",
   "title": "BlockTrending",
-  "url" : "http://d.blocktrending.com/api",
-  "sampleUrl": "http://d.blocktrending.com/api",
+  "url" : "http://localhost:8899",
+  "sampleUrl": "http://localhost:8899",
   "header": {
     "title": "Overview",
     "filename": "README.md"

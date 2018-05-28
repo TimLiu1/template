@@ -1,15 +1,15 @@
 const Koa = require('koa');
 const app = new Koa();
 const json = require('koa-json');
-const path = require('path');
+// const path = require('path');
 const onerror = require('koa-onerror');
 const bodyParser = require('koa-bodyparser');
 const cors = require('@koa/cors');
 
-const koaStaticPlus =require('koa-static-plus');
-app.use(koaStaticPlus(path.join(__dirname, './public'), {
-    pathPrefix: '/public'
-}));
+// const koaStaticPlus =require('koa-static-plus');
+// app.use(koaStaticPlus(path.join(__dirname, './public'), {
+//     pathPrefix: '/public'
+// }));
 
 require('./lib/spec');
 const index = require('./app/routes/index');
@@ -25,7 +25,7 @@ app.use(bodyParser({
 }));
 app.use(cors());
 app.use(json());
-app.use(require('koa-static')(__dirname + '/public'));
+app.use(require('koa-static')(__dirname+'/public'));
 
 // logger
 app.use(async (ctx, next) => {
