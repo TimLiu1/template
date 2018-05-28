@@ -1,6 +1,6 @@
 module.exports = {
     redis:{
-        enable:true,
+        enable:false,
         package:'quick-redis'
     },
     logger: {
